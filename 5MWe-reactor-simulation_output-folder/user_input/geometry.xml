@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<geometry>
+  <cell id="1" material="1" name="fuel" region="-1" universe="1" />
+  <cell id="2" material="2" name="Clad" region="1 -2" universe="1" />
+  <cell id="3" material="5" name="Cool" region="2 4 -3" universe="1" />
+  <cell id="4" material="3" name="Mod" region="3" universe="1" />
+  <cell id="5" material="2" name="Sample" region="-4" universe="1" />
+  <cell fill="1" id="6" name="root cell" region="5 -6 7 -8 9 -10" universe="0" />
+  <surface coeffs="0.0 0.0 1.45" id="1" type="z-cylinder" />
+  <surface coeffs="0.0 0.0 1.5" id="2" type="z-cylinder" />
+  <surface coeffs="0.0 0.0 3.25" id="3" type="z-cylinder" />
+  <surface coeffs="0.0 1.55 0.05" id="4" type="z-cylinder" />
+  <surface boundary="reflective" coeffs="-10" id="5" type="x-plane" />
+  <surface boundary="reflective" coeffs="10" id="6" type="x-plane" />
+  <surface boundary="reflective" coeffs="-10" id="7" type="y-plane" />
+  <surface boundary="reflective" coeffs="10" id="8" type="y-plane" />
+  <surface boundary="reflective" coeffs="-0.5" id="9" type="z-plane" />
+  <surface boundary="reflective" coeffs="0.5" id="10" type="z-plane" />
+</geometry>

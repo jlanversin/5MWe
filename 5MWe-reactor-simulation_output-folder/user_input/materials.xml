@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<materials>
+  <cross_sections>/home/julien/cross-sections/lib80x_hdf5/cross_sections.xml</cross_sections>
+  <material depletable="true" id="1" temperature="800">
+    <density units="g/cc" value="17.98" />
+    <nuclide ao="5.4e-05" name="U234" />
+    <nuclide ao="0.007204" name="U235" />
+    <nuclide ao="0.992742" name="U238" />
+  </material>
+  <material id="2" temperature="700">
+    <density units="g/cc" value="1.65" />
+    <nuclide ao="78.1705" name="Mg24" />
+    <nuclide ao="9.895000000000001" name="Mg25" />
+    <nuclide ao="10.884500000000001" name="Mg26" />
+    <nuclide ao="1" name="Al27" />
+    <nuclide ao="0.05" name="Be9" />
+  </material>
+  <material id="3" temperature="650">
+    <density units="g/cc" value="1.628" />
+    <nuclide ao="0.989" name="C12" />
+    <nuclide ao="0.011" name="C13" />
+    <sab name="c_Graphite" />
+  </material>
+  <material id="4" temperature="650">
+    <density units="g/cc" value="1.628" />
+    <nuclide ao="0.989" name="C12" />
+    <nuclide ao="0.011" name="C13" />
+    <sab name="c_Graphite" />
+  </material>
+  <material id="5" temperature="650">
+    <density units="g/cc" value="1.628" />
+    <nuclide ao="32.96337" name="C12" />
+    <nuclide ao="0.36662999999999996" name="C13" />
+    <nuclide ao="66.500016" name="O16" />
+  </material>
+</materials>
